@@ -36,7 +36,7 @@ public class SuperHeroesPresenter extends Presenter<SuperHeroesPresenter.View> {
         View view = getView();
         view.hideLoading();
         if (superHeroes.isEmpty()) {
-          view.showEmptyCase();
+          //view.showEmptyCase();
         } else {
           view.showSuperHeroes(superHeroes);
         }
